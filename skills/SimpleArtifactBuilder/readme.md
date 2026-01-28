@@ -77,8 +77,8 @@ Always use this specific setup for the HTML structure:
       };
     </script>
 
-    <!-- Babel -->
-    <script src="https://cdn.jsdelivr.net/npm/@babel/standalone/babel.min.js"></script>
+    <!-- Babel to support tsx -->
+    <script type="module" src="https://esm.sh/tsx"></script>
   </head>
   <body class="bg-slate-950 text-slate-100 min-h-screen font-sans antialiased">
     <div id="root"></div>
